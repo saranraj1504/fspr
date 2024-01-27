@@ -1,0 +1,63 @@
+/* Add the following CSS to your style.css file */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: -moz-element();
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    margin-left: 10px;
+}
+
+.searchbar {
+    text-align: center; /* Center the search bar */
+    margin-top: 20px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.products {
+    margin-top: 20px;
+}
+
+.box {
+    text-align: center; /* Center the content in each box */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.uu,li{
+    display: block;
+    padding:20px;
+}
